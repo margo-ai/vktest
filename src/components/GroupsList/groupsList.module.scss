@@ -1,0 +1,17 @@
+// .title {
+//   text-align: center;
+//   font-size: 24px;
+//   margin-bottom: 20px;
+// }
+
+.list {
+  background-color: #a0c3f3;
+  list-style: none;
+
+  padding: 20px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
