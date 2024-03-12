@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import { Group } from "../../types/types";
-
+import { FriendsList } from "../FriendsList";
 import styles from "./groupItem.module.scss";
-import { FriendsList } from "../FriendsList/FriendsList";
+
+import { Group } from "../../types/types";
 
 interface Props {
   fields: Group;
@@ -12,13 +12,7 @@ interface Props {
 export const GroupItem = ({ fields }: Props) => {
   const { name, closed, members_count, friends, avatar_color } = fields;
 
-  // const [isFriednsBlockOpen, setIsFriendsBlockOpen] = useState(false);
   const [friendsToggle, setFriendsToggle] = useState(false);
-
-  // const onOpenFriendsBlock = (friends) => {
-  //   console.log(friends);
-  //   setIsFriendsBlockOpen(true);
-  // };
 
   return (
     <li className={styles.item}>

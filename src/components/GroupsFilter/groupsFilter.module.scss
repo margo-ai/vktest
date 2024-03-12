@@ -1,0 +1,29 @@
+.form {
+  margin-bottom: 20px;
+}
+
+.filtersBlock {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #a0c3f3;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.5s ease;
+
+  &:hover {
+    opacity: 0.8;
+    color: #222;
+  }
+}
