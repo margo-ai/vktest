@@ -1,0 +1,11 @@
+*{margin:0;padding:0;box-sizing:content-box;font-size:20px;font-family:"Roboto",sans-serif}
+.container-module_container-VW7DJ{margin:0 auto;width:1000px;padding:20px}
+.groupsList-module_list-tO5Tx{background-color:#a0c3f3;list-style:none;padding:20px;border-radius:10px;display:grid;grid-template-columns:repeat(2, 1fr);gap:30px}
+.friendsList-module_section-k7HWL{display:flex;flex-direction:column;gap:10px;background-color:#a0c3f3;border-radius:10px;padding:8px}.friendsList-module_list-EnzHc{list-style:none}
+.groupItem-module_item-zSMxJ{background-color:#fff;border-radius:10px;padding:12px 20px;display:flex;justify-content:space-between}.groupItem-module_info-fKac3{display:flex;flex-direction:column;gap:8px;width:200px}.groupItem-module_friends-ftDXD{cursor:pointer}
+.app-module_title-XRVJU{text-align:center;font-size:24px;margin-bottom:20px}
+.select-module_label-z9IXN{margin-right:10px}
+.groupsFilter-module_form-o_cY6{margin-bottom:20px}.groupsFilter-module_filtersBlock-p3ZO_{display:flex;justify-content:space-around;margin-bottom:15px}.groupsFilter-module_title-_Ztp4{margin-bottom:15px}.groupsFilter-module_button-fP6UI{background-color:#a0c3f3;padding:10px 16px;cursor:pointer;border-radius:5px;border:none;color:#fff;font-size:16px;transition:all .5s ease}.groupsFilter-module_button-fP6UI:hover{opacity:.8;color:#222}
+@keyframes spinner-module_rotation-Q_uzG{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.spinner-module_loader-evyXm{width:50px;height:50px;border:5px solid #a0c3f3;border-bottom-color:rgba(0,0,0,0);border-radius:50%;display:inline-block;box-sizing:border-box;animation:spinner-module_rotation-Q_uzG 1s linear infinite}
+
+/*# sourceMappingURL=main.css.map*/
