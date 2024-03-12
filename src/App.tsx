@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-// import { AppRoot, Group, Header, Panel, PanelHeader, SimpleCell, View } from "@vkontakte/vkui";
 import { Container } from "./components/Container";
 import { GroupsList } from "./components/GroupsList";
 
